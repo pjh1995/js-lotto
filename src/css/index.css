@@ -22,3 +22,11 @@ body {
   width: 30px;
   height: 36px;
 }
+
+#lotto-numbers-wrap .lotto-numbers {
+  display: none;
+}
+
+#lotto-numbers-wrap.flex-col .lotto-numbers {
+  display: inline;
+}
